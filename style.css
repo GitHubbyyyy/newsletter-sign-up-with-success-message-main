@@ -55,6 +55,7 @@ main {
     padding-top: 2rem;
     list-style-type: none;
     margin-bottom: 3rem;
+    margin-left: 1.5rem;
 } 
 
 .col-1 ul li{
@@ -176,7 +177,7 @@ main {
         padding: 20px;
     }
     .container h1{
-        font-size:1.5em;
+        font-size:2em;
     }
     .col-2{
         width: 100%;
