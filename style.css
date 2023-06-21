@@ -56,11 +56,13 @@ main {
     list-style-type: none;
     margin-bottom: 3rem;
     margin-left: 1.5rem;
+    list-style-image: url(assets/images/icon-list.svg);
 } 
 
 .col-1 ul li{
     padding: 0.5rem;
-    list-style-image: url(/assets/images/icon-list.svg);
+    margin-bottom: 10px;
+    
 }
 
 .form{
