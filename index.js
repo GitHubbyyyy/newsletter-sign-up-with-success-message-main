@@ -16,11 +16,23 @@ function validateEmail() {
         for (var i = 0; i < element.length; i++) {
             element[i].classList.add("error");
         }
-
-    }
-    var elements = document.getElementsByClassName("last");
-    for (var i = 0; i < elements.length; i++) {
+        var elements = document.getElementsByClassName("last");
+        for (var i = 0; i < elements.length; i++) {
         elements[i].classList.remove("hide");
     }
+}
 
+    }
+    
+
+function dismiss() {
+    var element =document.getElementsByClassName("container");
+        for (var i = 0; i < element.length; i++) {
+        element[i].classList.remove("hide");
+        }
+        var element =document.getElementsByClassName("container-success");
+        for (var i = 0; i < element.length; i++) {
+        element[i].classList.add("hide");
+        }
+        
 }
