@@ -194,8 +194,17 @@ main {
     }
 
     .container-success{
-
-        min-height: 100vh;
+        border-radius: 0;
+        height: 100vh;
     }
+    .container-success img{
+        padding-top: 7rem;
+    }
+
+
+    .container-success form {
+        padding-top: 14rem; ;
+    }
+    
     
 }
