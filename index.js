@@ -1,6 +1,6 @@
 function validateEmail() {
     var email = document.getElementById("input_email").value;
-    var emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    var emailRegex = /^[^\s@]+@[^s@]+\.[^\s@]+$/;
     if (emailRegex.test(email)) {
         var element =document.getElementsByClassName("container");
         for (var i = 0; i < element.length; i++) {
